@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'sunfloraregular';
+  src: url('sunflora-webfont.woff2') format('woff2'),
+       url('sunflora-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+*, *:after {
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #2f2852;
+  color: #ffc469;
+  display: flex;
+  justify-content: center;
+  align-content: stretch;
+  max-width: 100%;
+}
+.yellow {
+  color: #ffc469;
+}
+.purple {
+  color: #2f2852;
+}
+.orange {
+  color: #ff6a4b;
+}
+h1 {
+  font-family: 'sunfloraregular', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 4em;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-content: center;
+  margin: 0 auto;
+  text-align: center;
+}
